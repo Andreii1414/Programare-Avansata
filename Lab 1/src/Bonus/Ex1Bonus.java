@@ -5,7 +5,7 @@ public class Ex1Bonus {
 
         if(args.length != 1) //verific ca exista un singur argument (n)
         {
-            System.out.println("Niciun argument");
+            System.out.println("Niciun argument/Mai mult de un argument.");
             return;
         }
 
