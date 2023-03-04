@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Homework.MainPackage","l":"BestRouteInstance"},{"p":"Homework.MainPackage","l":"Homework"},{"p":"Homework.MainPackage","l":"Location"},{"p":"Homework.MainPackage","l":"Road"}];updateSearchResults();
