@@ -1,4 +1,4 @@
-Explicatii Laborator 2 Compulsory
+Explicatii Laborator 2 Compulsory, Homework
 
 Compulsory:
 Cerinta: Creare unei instante pentru problema "Best Route", posibilitatea crearii de drumuri si locatii care au anumite informatii
@@ -13,3 +13,12 @@ posibilitatea initializarii atributelor fara a folosi setterele
 respectiv despre Location
 6. In clasa Compulsory, am creat mai multe obiecte de tipul Road si de tipul Location si am initializat atributele folosind settere sau folosind constructorul corespunzator
 7. Am printat informatii despre aceste obiecte folosind System.out.println() si metoda suprascrisa toString() din cele doua clase Road si Location
+
+Homework:
+Cerinta: Crearea unei clase care descrie o instanta a problemei, suprascrierea metodei equals pentru Location si Road, crearea unor clase diferite pentru tipurile de road sau location (city, gas station, highway, etc), locatiile avand proprietati specifice (gas price, population, etc). Implementarea unei metode care verifica daca instanta este valida. Implementarea unui algoritm care verifica daca este posibil sa ajungi de la o locatie la alta folosind drumurile date (-). Adaugarea de doc comments si folosirea javadoc.
+
+1. Crearea clasei BestRouteInstance in care poate fi descrisa o instanta a problemei, avand urmatoarele atribute: o lista de Roads si o lista de Locations
+2. Suprascrierea metodei Object.equals in cele doua clase Road si Location care verifica daca obiectul de tipul Road sau Location (this) este egal cu un alt obiect
+3. Eliminarea enum-urilor si crearea claselor City, Airport si GasStation, cu atribute specifice (population, area, number_of_terminals,gas_price) si a claselor Express, Highway, Country care inlocuiesc enum-ul RoadType.
+4. Implementarea metodei isValid() in clasa BestRouteInstance care verifica daca o instanta este valida. Metoda face 3 verificari: verifica daca exista locatii la fel in acea instanta, verifica daca exista drumuri la fel in acea instanta si verifica daca pentru fiecare drum, lungimea acestuia este mai mica decat distanta euclidiana dintre cele doua locatii.
+5. Scrierera de comentarii si generarea documentatiei folosind javadoc
