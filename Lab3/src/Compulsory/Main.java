@@ -29,6 +29,8 @@ public class Main {
         nodes.add(person3);
         nodes.add(person4);
         nodes.add(person5);
+        nodes.add(company1);
+        nodes.add(company2);
 
         for(int i = 0; i < nodes.size();i++)
             System.out.println(nodes.get(i).getName());
