@@ -117,4 +117,9 @@ public class Location {
 
         return false;
     }
+    
+      @Override
+    public int hashCode() {
+        return Objects.hash(name, type, x, y);
+    }
 }
