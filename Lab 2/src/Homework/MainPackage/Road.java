@@ -152,4 +152,10 @@ public class Road {
 
         return false;
     }
+    
+    @Override
+    public int hashCode() {
+        return Objects.hash(length, name, speedLimit, type, from, to);
+    }
+    
 }
