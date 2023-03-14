@@ -44,6 +44,9 @@ public class Network {
      */
     public void addNode(Node node)
     {
+        for(Node node1: nodes)
+            if(node1.getName() == node.getName())
+                return;
         nodes.add(node);
     }
 
