@@ -29,7 +29,6 @@ si apoi folosirea API-ului Java Stream pentru a filtra studentii care au mai put
 3. Folosirea bibliotecii Java Faker (adaugand dependentele necesare in pom.xml) pentru a genera studenti si proiecte fake (si lista de preferinte a studentilor -> un nr
 de proiecte random din proiectele generate random, pentru fiecare student)
 4. Crearea unei metode care rezolva problema "The Student-Project Allocation Problem" folosind un algoritm greedy, astfel:
-
   4.1. Sortarea studentilor in ordinea crescatoare a preferintelor (de la cele mai putine preferinte la cele mai multe)
   4.2. Crearea unui TreeSet cu proiecte care nu au fost asignate si a unui Map in care vor fi adaugati studentii si proiectul asignat fiecaruia
   4.3. Parcurgerea listei de studenti si preferintelor lui
