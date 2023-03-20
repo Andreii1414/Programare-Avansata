@@ -1,0 +1,25 @@
+{
+  "documents" : [ {
+    "id" : "C1",
+    "name" : "Doc 1",
+    "pathUrl" : "C:/users/documents",
+    "tags" : [ {
+      "name" : "Titlu",
+      "value" : "A"
+    }, {
+      "name" : "An",
+      "value" : "2002"
+    } ]
+  }, {
+    "id" : "C2",
+    "name" : "Doc 2",
+    "pathUrl" : "https://profs.info.uaic.ro/~acf/java/labs/lab_05.html",
+    "tags" : [ {
+      "name" : "Titlu",
+      "value" : "Lab 5 Java"
+    }, {
+      "name" : "An",
+      "value" : "2023"
+    } ]
+  } ]
+}
