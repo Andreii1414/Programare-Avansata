@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"org.example.Homework","l":"Catalog"},{"p":"org.example.Homework","l":"Document"},{"p":"org.example.Homework","l":"InvalidDataOrCommandException"},{"p":"org.example.Homework","l":"Main"},{"p":"org.example.Homework","l":"Tag"}];updateSearchResults();
