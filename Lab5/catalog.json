@@ -1,25 +1,27 @@
 {
   "documents" : [ {
-    "id" : "C1",
-    "name" : "Doc 1",
-    "pathUrl" : "C:/users/documents",
+    "id" : "D1",
+    "name" : "Text Document",
+    "pathUrl" : "C:\\Users\\andrei14\\Documents\\test.txt",
     "tags" : [ {
       "name" : "Titlu",
       "value" : "A"
     }, {
       "name" : "An",
-      "value" : "2002"
-    } ]
+      "value" : "2023"
+    } ],
+    "path" : true
   }, {
-    "id" : "C2",
-    "name" : "Doc 2",
-    "pathUrl" : "https://profs.info.uaic.ro/~acf/java/labs/lab_05.html",
+    "id" : "D2",
+    "name" : "What kind of creatures are we?",
+    "pathUrl" : "https://ro.scribd.com/book/470859969/What-Kind-of-Creatures-Are-We",
     "tags" : [ {
-      "name" : "Titlu",
-      "value" : "Lab 5 Java"
+      "name" : "Autor",
+      "value" : "Noam Chomsky"
     }, {
       "name" : "An",
-      "value" : "2023"
-    } ]
+      "value" : "2015"
+    } ],
+    "path" : false
   } ]
 }
