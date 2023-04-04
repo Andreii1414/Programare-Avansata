@@ -14,3 +14,12 @@ liniile, numarul de linii care trebuiesc desenate fiind un atribut al clasei, in
 4. Crearea control panel-ului cu cele 4 butoane: load, save, reset, exit
 5. Adaugarea celor 3 componente la main frame astfel: configuration panel in partea de sus (BorderLayout.NORTH), canvas-ul in mijloc (BorderLayout.CENTER) si 
 control panel-ul in partea de jos (BorderLayout.SOUTH).
+
+Homework: Cerinta: Crearea claselor, crearea logicii jocului, exportarea imaginilor, salvarea
+si incarcarea unui joc
+
+1. Crearea unui model orientat-obiect, cu clasele Dot, Line, Game, Drawing Panel
+2. Crearea metodei exportImage care foloseste un BufferedImage si permite salvarea unui PNG
+cu tabla de joc la un moment dat (apasand butonul export)
+3. Crearea metodei saveGame care permite salvarea jocului (apasand butonul save)
+4. Crearea metodei loadGame care permite incarcarea jocului (apasand butonul load)
