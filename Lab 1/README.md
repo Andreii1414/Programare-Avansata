@@ -18,14 +18,23 @@ in continuare numerele de la n cu ajutorul lui k2 (unde j este indicele coloanei
 7. La final, printez running time-ul scazand din timpul in milisecunde de la finalul executiei, timpul in milisecunde de la inceputul executiei, folosind
 System.currentTimeMillis();
 
-Bonus (doar prima parte):
+Bonus:
 Cerinta: Crearea unei matrici de adiacenta A a unui graf Cn si calculul fiecarei matrici A^2, ..., A^n
 
 1. Verificarea numarului de argumente si a argumentului, exact ca la Homework
-2. Creearea matricii de adiacenta:
+2. Crearea matricii de adiacenta:
 - In Cn, fiecare nod are gradul 2, asadar am creeat o legatura intre fiecare nod si vecinii sai, in functie de indici (legatura intre i si i-1 si intre i si i+1)
 - Am tratat la inceput exceptia, adaugand legatura intre nodul 0 si nodul n-1 (si invers), deoarece, n-1 este nod anterior pentru 0, iar 0 este nod urmator pentru n-1
 - Intr-un for am creeat si celelalte legaturi intre i si i+1, respectiv i+1 si i
 3. Folosindu-ma de metoda "mul" care returneaza un tablou bidimensional, inmultind doua matrici primite ca argument (inmultire clasica a matricilor, fiecare element de
 pe linie * fiecare element de pe coloana), am calculat A^2, A^3, ..., A^n
 4. Am printat fiecare A, A^2, ..., A^n folosind metoda Print care face o printare obisnuita a unei matrici primita ca argument
+
+Bonus:
+Cerinta: Crearea unei matrici de adiacenta pentru un graf regulat.
+
+1. Verificarea numarului de argumente si a argumentelor
+2. Crearea matricii de adiacenta:
+- Pentru fiecare nod, se iau vecinii din stanga si din dreapta de m/2 ori (m fiind gradul)
+- Daca gradul este impar, se ia si un vecin secundar (deoarece, luand cate doi vecini, nu ar functiona si pt grafurile regulate cu nr impar de noduri)
+3. Printarea matricii
