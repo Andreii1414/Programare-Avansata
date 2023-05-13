@@ -36,5 +36,5 @@ Cerinta: Crearea unei matrici de adiacenta pentru un graf regulat.
 1. Verificarea numarului de argumente si a argumentelor
 2. Crearea matricii de adiacenta:
 - Pentru fiecare nod, se iau vecinii din stanga si din dreapta de m/2 ori (m fiind gradul) - sunt tratate si cazurile in care vecinul din stanga ar fi < 0 iar cel din dreapta >= nr noduri
-- Daca gradul este impar, se ia si un vecin secundar (deoarece, luand cate doi vecini, nu ar functiona si pt grafurile regulate cu nr impar de noduri)
+- Daca gradul este impar, se ia si un vecin secundar (deoarece, luand cate doi vecini de fiecare data, nu ar functiona si pt grafurile regulate cu nr impar de noduri)
 3. Printarea matricii
