@@ -18,6 +18,13 @@ public class Main {
 
             Method[] methods = cls.getDeclaredMethods();
 
+            System.out.print("Metode: ");
+            for(Method method: methods)
+            {
+                System.out.print(method.getName() + ", ");
+            }
+            System.out.println();
+
             for(Method method : methods){
                 if(method.isAnnotationPresent(Test.class) && method.getParameterCount() == 0
                 && Modifier.isStatic(method.getModifiers())) {
